@@ -1,0 +1,40 @@
+body{
+	background-image: url('http://www.emoticonswallpapers.com/background/thumb/music/music-pattern-001.jpg');
+	background-size: 100%;
+	color: red;
+}
+.me{
+	background-color: white;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.aboutme{
+	text-align: center;
+	background-color: white;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#aboutme{
+	font-size: 20px;
+	text-align: left;
+}
