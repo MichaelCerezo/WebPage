@@ -38,3 +38,39 @@ body{
 	font-size: 20px;
 	text-align: left;
 }
+
+a:link {
+    color: white;
+    text-decoration: none;
+    background-color:black; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+    background-color: red;
+}
+a:active {
+    color: aqua;
+    text-decoration: underline;
+    background-color: red;
+}
+figcaption{
+    display: inline-block;
+}
+.image{
+display: inline-block;
+text-align: center;
+font-size: 15px;
+font-style: italic;
+}
