@@ -3,22 +3,127 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="css/small.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 100px)" href="css/medium.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1400px)" href="css/large.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My WebPage</title>
 </head>
 <body>
-	<div class="me">
-		<ul class="nav nav-tabs" role="tablist">
-  			<li class="active"><a href="index.html" role="tab" data-toggle="tab">Home</a></li>
-  			<li><a href="interests.html" role="tab" data-toggle="tab">Interests</a></li>
-		</ul>
-		<p><h1><center>MICHAEL</center></h1></p>
-		<p><h1><center>cerezo</center></h1></p>
-	</div>
-	<div class="aboutme">
-		<p><h1>About Me!</h1></p>
-		<p id="aboutme">My name is Michael Cerezo. Im 15 years old. I live in Pasadena, CA. I go to Pasadena High School. I live with my mom and three brothers. I like to eat food. I go to the park alot. words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words.</p>
-	</div>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<section id="home" data-type="background" data-speed="10" class="pages">  
+		<p><br><center><h1><img id="img" src="images/images.jpeg"></h1></center></p>   
+         <article><p><br><h1><center>MICHAEL</center></h1></p>
+		<p><h1><center>cerezo</center></h1></p></article>
+    </section>   
+ 
+	<section id="about" data-type="background" data-speed="10" class="pages">
+         <article>
+         	<div class="aboutme">
+			<p><h1>About Me!</h1></p>
+			<p id="aboutme">My name is Michael Cerezo. Im 15 years old. I live in Pasadena, CA. I go to Pasadena High School. I live with my mom and three brothers. I like to eat food. I go to the park alot. words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words.</p>
+			</div>
+		</article>
+	</section>
+
+<section id="interests" data-type="background" data-speed="10" class="pages">
+	<article>
+		<p><h1><center>INTERESTS</center></h1></p>
+		<div class="music">
+			<p><h1><center>Music</center></h1></p>
+			<p id="music">
+				<h3><center><strong>Mac Miller</strong></center></h3>
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+					</ol>
+
+  <!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<center><img src="http://static.djbooth.net/pics-albums/macadelic.jpg" width="200px" height="200px" alt="words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://upload.wikimedia.org/wikipedia/en/5/5b/On_and_On_and_Beyond.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://3.bp.blogspot.com/-W7egf3wNY3Q/TZpp33lPDSI/AAAAAAAAFyQ/-zyaL0hy61Q/s1600/Mac%2BMiller%2B-%2BBest%2BDay2528Mixtape%2529%2B%2528Official%2BAlbum%2BCover%2529.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://www.ddotomen.com/wp-content/uploads/2013/05/mac-miller-watching-movies-with-the-sound-off-ddotomen.png"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://muziksmylife.com/wp-content/uploads/2011/10/i-love-life-thank-you.png"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://cdn.stereogum.com/files/2014/05/Mac-Miller-Faces-608x608.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+					</div>
+
+  <!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			<h3><center><strong>Eminem</strong></center></h3>
+			<div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example" data-slide-to="1"></li>
+					<li data-target="#carousel-example" data-slide-to="2"></li>
+					<li data-target="#carousel-example" data-slide-to="3"></li>
+					<li data-target="#carousel-example" data-slide-to="4"></li>
+					<li data-target="#carousel-example" data-slide-to="5"></li>
+				</ol>
+
+  <!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<center><img src="http://cdn.respect-mag.com/wp-content/uploads/2013/11/mmlp-640x639.jpg?206228" width="200px" height="200px" alt="words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://upload.wikimedia.org/wikipedia/en/archive/3/35/20130409054248!The_Eminem_Show.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://slanginc.com/wp/wp-content/uploads/2009/05/Eminem-Relapse-Slang-Inc-1.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://upload.wikimedia.org/wikipedia/en/6/60/Recovery_Album_Cover.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://static.hypable.com/wp-content/uploads/2013/09/Eminem-MMLP-2-Cover-Art.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+						<div class="item">
+							<center><img src="http://i796.photobucket.com/albums/yy241/celebritybug/Hip-Hop%20Stars/eminem-rihanna-monster.jpg"  width="200px" height="200px" alt="more words"></center>
+						</div>
+					</div>
+
+  <!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</p>
+		</div>
+	</article>
+</section>
+<p id="cw">&copy; michael cerezo</p>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

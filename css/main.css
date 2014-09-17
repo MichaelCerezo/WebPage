@@ -1,7 +1,55 @@
-body{
-	background-image: url('http://www.emoticonswallpapers.com/background/thumb/music/music-pattern-001.jpg');
-	background-size: 100%;
-	color: red;
+#home { 
+  background: url(http://www.hdwallpapers.in/walls/dream_village_hd-HD.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url(http://img1.gtsstatic.com/wallpapers/1fa2f4c1d6cba66182c5da8a548c6c36_large.jpeg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+#interests { 
+  background: url(http://www.hdwallpapers.in/walls/dream_village_hd-HD.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#interests article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
 .me{
 	background-color: white;
@@ -38,39 +86,71 @@ body{
 	font-size: 20px;
 	text-align: left;
 }
-
-a:link {
-    color: white;
-    text-decoration: none;
-    background-color:black; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-size: 20px;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-    background-color: black;
-}
-a:hover {
-    color: aqua;
-    text-decoration: underline;
-    background-color: red;
-}
-a:active {
-    color: aqua;
-    text-decoration: underline;
-    background-color: red;
-}
-figcaption{
+.music{
     display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-.image{
-display: inline-block;
-text-align: center;
-font-size: 15px;
-font-style: italic;
+#music{
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+
+#carousel-example-generic{
+    width: 400px;
+    height: 200px;
+}
+#carousel-example{
+    width: 400px;
+    height: 200px;
+}
+@media screen and (max-width:959px){
+    #container{
+        width: 100%
+    }
+    #left-column{
+        width: 70%
+    }
+    #right-column{
+        width: 30%
+    }
+    img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:640px){
+    #left-column{
+        width: 100%
+    }
+    #right-column{
+        width: 100%
+    }
+}
+@media screen and (max-width:320px){
+    #container{
+        width: 320%
+    }
+}
+#img{
+     border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+#cw{
+    text-align: right;
+    font-size: 20px;
 }
