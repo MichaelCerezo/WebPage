@@ -7,26 +7,73 @@
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 100px)" href="css/medium.css">
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1400px)" href="css/large.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
 	<title>My WebPage</title>
 </head>
 <body>
-	<section id="home" data-type="background" data-speed="10" class="pages">  
+	<section id="home" data-type="background" data-speed="10" class="pages">
+	 <div class="nav">
+		<ul>
+			<li>
+				<a class="selected" href="">HOME</a>
+				<a href="#about">About Me</a>
+				<a href="#interests">Interests</a>
+			</li>
+		</ul>
+	</div> 
 		<p><br><center><h1><img id="img" src="images/images.jpeg"></h1></center></p>   
-        <article><p><br><h1><center>MICHAEL</center></h1></p>
+        <article><p><br><br><br><br><br><br><h1><center>MICHAEL</center></h1></p>
 		<p><h1><center>cerezo</center></h1></p></article>
     </section>   
  
 	<section id="about" data-type="background" data-speed="10" class="pages">
+		<div class="nav">
+		<ul>
+			<li>
+				<a  href="#home">HOME</a>
+				<a class="selected" href="#about">About Me</a>
+				<a href="#interests">Interests</a>
+			</li>
+		</ul>
+	</div>
          <article>
          	<p><h1><center>About Me!</center></h1></p>
-         	<div class="aboutme">
-			<p id="aboutme">My name is Michael Cerezo. Im 15 years old. I live in Pasadena, CA. I go to Pasadena High School. I live with my mom and three brothers. I like to eat food. I go to the park alot.</p>
+
+         	<!-- Button trigger modal -->
+			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  				<img id="img1" src="images/me1.png" width="200px" height="200px">
+			</button>
+
+<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  					<div class="modal-dialog">
+    					<div class="modal-content">
+     						<div class="modal-header">
+        						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        						<h4 class="modal-title" id="myModalLabel">About Me!!!</h4>
+      						</div>
+      						<div class="modal-body">
+        						My name is Michael Cerezo. Im 15 years old. I live in Pasadena, CA. I go to Pasadena High School. I live with my mom and three brothers. I like to eat food. I go to the park alot.
+      						</div>
+      						<div class="modal-footer">
+        					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      					</div>
+    				</div>
+  				</div>
 			</div>
-			
 		</article>
 	</section>
 
 <section id="interests" data-type="background" data-speed="10" class="pages">
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="">HOME</a>
+				<a href="#about">About Me</a>
+				<a class="selected" href="#interests">Interests</a>
+			</li>
+		</ul>
+	</div>
 	<article>
 		<p><h1><center>INTERESTS</center></h1></p>
 		<div class="music">
@@ -42,28 +89,24 @@
 						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="5"></li>
 					</ol>
 
   <!-- Wrapper for slides -->
 					<div class="carousel-inner">
 						<div class="item active">
-							<center><img src="http://static.djbooth.net/pics-albums/macadelic.jpg" width="200px" height="200px" alt="words"><audio controls><source src="macmillerthoughtsfromabalcony.mp3" type="audio/mpeg"></audio></center>
+							<center><img src="http://static.djbooth.net/pics-albums/macadelic.jpg" width="200px" height="200px" alt="words"><audio controls><source src="music/macmillerthoughtsfromabalcony.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://upload.wikimedia.org/wikipedia/en/5/5b/On_and_On_and_Beyond.jpg"  width="200px" height="200px" alt="more words"><audio controls><source src="macmilleronandon.mp3" type="audio/mpeg"></audio></center>
+							<center><img src="http://upload.wikimedia.org/wikipedia/en/5/5b/On_and_On_and_Beyond.jpg"  width="200px" height="200px" alt="more words"><audio controls><source src="music/macmilleronandon.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://3.bp.blogspot.com/-W7egf3wNY3Q/TZpp33lPDSI/AAAAAAAAFyQ/-zyaL0hy61Q/s1600/Mac%2BMiller%2B-%2BBest%2BDay2528Mixtape%2529%2B%2528Official%2BAlbum%2BCover%2529.jpg"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://3.bp.blogspot.com/-W7egf3wNY3Q/TZpp33lPDSI/AAAAAAAAFyQ/-zyaL0hy61Q/s1600/Mac%2BMiller%2B-%2BBest%2BDay2528Mixtape%2529%2B%2528Official%2BAlbum%2BCover%2529.jpg"  width="200px" height="200px" alt="more words"><audio controls><source src="music/macmillerbestdayever.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://www.ddotomen.com/wp-content/uploads/2013/05/mac-miller-watching-movies-with-the-sound-off-ddotomen.png"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://www.ddotomen.com/wp-content/uploads/2013/05/mac-miller-watching-movies-with-the-sound-off-ddotomen.png"  width="200px" height="200px" alt="more words"><audio controls><source src="music/macmilleriamwhoam.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://muziksmylife.com/wp-content/uploads/2011/10/i-love-life-thank-you.png"  width="200px" height="200px" alt="more words"></center>
-						</div>
-						<div class="item">
-							<center><img src="http://cdn.stereogum.com/files/2014/05/Mac-Miller-Faces-608x608.jpg"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://muziksmylife.com/wp-content/uploads/2011/10/i-love-life-thank-you.png"  width="200px" height="200px" alt="more words"><audio controls><source src="music/macmillerjustakid.mp3" type="audio/mpeg"></audio></center>
 						</div>
 					</div>
 
@@ -88,28 +131,24 @@
 					<li data-target="#carousel-example" data-slide-to="2"></li>
 					<li data-target="#carousel-example" data-slide-to="3"></li>
 					<li data-target="#carousel-example" data-slide-to="4"></li>
-					<li data-target="#carousel-example" data-slide-to="5"></li>
 				</ol>
 
   <!-- Wrapper for slides -->
 					<div class="carousel-inner">
 						<div class="item active">
-							<center><img src="http://cdn.respect-mag.com/wp-content/uploads/2013/11/mmlp-640x639.jpg?206228" width="200px" height="200px" alt="words"></center>
+							<center><img src="http://cdn.respect-mag.com/wp-content/uploads/2013/11/mmlp-640x639.jpg?206228" width="200px" height="200px" alt="words"><audio controls><source src="music/eminemthewayiam.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://upload.wikimedia.org/wikipedia/en/archive/3/35/20130409054248!The_Eminem_Show.jpg"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://upload.wikimedia.org/wikipedia/en/archive/3/35/20130409054248!The_Eminem_Show.jpg"  width="200px" height="200px" alt="more words"><audio controls><source src="music/eminemsingforthemoment.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://slanginc.com/wp/wp-content/uploads/2009/05/Eminem-Relapse-Slang-Inc-1.jpg"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://static.musictoday.com/store/bands/93/product_large/MUDD937.JPG"  width="200px" height="200px" alt="more words"><audio controls><source src="music/eminemmockingbird.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://upload.wikimedia.org/wikipedia/en/6/60/Recovery_Album_Cover.jpg"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://slanginc.com/wp/wp-content/uploads/2009/05/Eminem-Relapse-Slang-Inc-1.jpg"  width="200px" height="200px" alt="more words"><audio controls><source src="music/eminembeautiful.mp3" type="audio/mpeg"></audio></center>
 						</div>
 						<div class="item">
-							<center><img src="http://static.hypable.com/wp-content/uploads/2013/09/Eminem-MMLP-2-Cover-Art.jpg"  width="200px" height="200px" alt="more words"></center>
-						</div>
-						<div class="item">
-							<center><img src="http://i796.photobucket.com/albums/yy241/celebritybug/Hip-Hop%20Stars/eminem-rihanna-monster.jpg"  width="200px" height="200px" alt="more words"></center>
+							<center><img src="http://static.hypable.com/wp-content/uploads/2013/09/Eminem-MMLP-2-Cover-Art.jpg"  width="200px" height="200px" alt="more words"><audio controls><source src="music/eminemthemonster.mp3" type="audio/mpeg"></audio></center>
 						</div>
 					</div>
 
@@ -126,7 +165,7 @@
 	</article>
 </section>
 <p id="cw">&copy; michael cerezo</p>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
